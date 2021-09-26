@@ -1,0 +1,38 @@
+.content {
+  grid-area: c;
+}
+
+.content img {
+  width: 1000px;
+  height: 300px;
+}
+
+.myposts{
+  margin-left: 20px;
+}
+
+.text{
+  background-color: #e6eeea;
+  border: none;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 17px;
+}
+
+.add{
+  border: none;
+  background-color: #13ce66;
+  color: #fff;
+  cursor: pointer;
+  padding-right: 70px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+  float: right;
+  font-size: 17px;
+}
+
+p{
+  font-size: 30px;
+}

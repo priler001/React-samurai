@@ -1,0 +1,49 @@
+.content {
+  grid-area: c;
+  background-color: cornflowerblue;
+}
+
+
+.dialogs {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+}
+
+.dialog {
+  padding: 10px;
+}
+
+.dialogsItems .active{
+  color: gold;
+}
+
+.messages {
+  padding: 10px;
+  display: block;
+}
+
+.dialogsItems{
+  display: block !important;
+}
+
+a{
+  text-decoration: none;
+}
+
+.button{
+  background-color: #13ce66;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.text{
+  padding: 5px;
+}
+
+.message{
+  display: flex;
+  align-items: end;
+}

@@ -1,0 +1,20 @@
+.item{
+  color: greenyellow;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  grid-gap: 10px;
+  padding-top: 20px;
+}
+
+article{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: gold;
+  display: inline-block;
+}
+
+p{
+  font-size: 20px;
+}
